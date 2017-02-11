@@ -31,7 +31,9 @@ Basic Steps
    - `gitolite-admin/local/hooks/repo-specific/`
    - my post receive hook can be found [here](https://github.com/msashlee/deploy-hook)
   * Enable your hook in `gitolite-admin/conf/gitolite.conf` with a config like
-   - ```repo testing```
-   - ```RW+     =   @all```
-   - ```option hook.post-receive   =  deploy```
+   >``` repo testing```
+
+   >``` RW+     =   @all```
+
+   > ```option hook.post-receive   =  deploy```
 - You should now be able to pull the testing directory from your remote, add an `index.html` file, commit it, push it to your server and visit it at `http://yourserver.tdl/testing/index.html`
