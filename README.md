@@ -31,6 +31,7 @@ Basic Steps
    - `gitolite-admin/local/hooks/repo-specific/`
    - my post receive hook can be found [here](https://github.com/msashlee/deploy-hook)
   * Enable your hook in `gitolite-admin/conf/gitolite.conf` with a config like
+  
    >``` repo testing```
 
    >``` RW+     =   @all```
